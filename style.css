@@ -1,0 +1,22 @@
+/* Copyright 2024 Jay Lang
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ */
+
+/* Fonts: everything uses Roboto */
+body {
+    font-family: 'Roboto', Verdana, sans-serif;
+}
+
+/* Header and footer are dark, and use a white text color to compensate */
+.banner, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+/* Lists don't have any left bullet or padding to them, since 
+ * we primarily use these in FlexBoxes.
+ */
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
