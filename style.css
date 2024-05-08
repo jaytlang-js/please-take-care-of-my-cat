@@ -50,18 +50,15 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0px;
 }
 
-.header li {
+.header li,
+.header-logo-text {
     margin: 8px 24px;
 }
 
 /* Force the header to blend into the banner */
 h1 {
     margin: 0px;
-}
-
-/* Logo text should have reasonable spacing */
-.header-logo-text {
-    margin: 0px 24px;
 }
