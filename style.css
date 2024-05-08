@@ -12,7 +12,14 @@ body {
 /* Header and footer are dark, and use a white text color to compensate */
 .blue-background {
     background-color: #1F2937;
-    color: white;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 /* LAYOUT */
@@ -28,4 +35,33 @@ body {
 ul {
     list-style-type: none;
     padding: 0px;
+}
+
+/* Header area. Flex layout with some reasonable padding */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header li {
+    margin: 8px 24px;
+}
+
+/* Force the header to blend into the banner */
+h1 {
+    margin: 0px;
+}
+
+/* Logo text should have reasonable spacing */
+.header-logo-text {
+    margin: 0px 24px;
 }
