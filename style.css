@@ -62,3 +62,24 @@ ul {
 h1 {
     margin: 0px;
 }
+
+/* Banner! First decide an ideal size for the glamour shot */
+.banner img {
+    width: 600px;
+    height: 450px;
+}
+
+/* Banner content should be allowed to wrap
+ * i.e., the image should be allowed to sit below the text on small screens
+ */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* The hero text should not get too wide. */
+.hero {
+    max-width: 600px;
+}
