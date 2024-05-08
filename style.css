@@ -2,15 +2,24 @@
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
 
+/* STYLING */
+
 /* Fonts: everything uses Roboto */
 body {
     font-family: 'Roboto', Verdana, sans-serif;
 }
 
 /* Header and footer are dark, and use a white text color to compensate */
-.banner, .footer {
+.blue-background {
     background-color: #1F2937;
     color: white;
+}
+
+/* LAYOUT */
+
+/* Default user agent, don't do me like this */
+body {
+    margin: 0px;
 }
 
 /* Lists don't have any left bullet or padding to them, since 
