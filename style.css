@@ -67,6 +67,7 @@ h1 {
 .banner img {
     width: 600px;
     height: 450px;
+    margin: 24px;
 }
 
 /* Banner content should be allowed to wrap
@@ -81,5 +82,7 @@ h1 {
 
 /* The hero text should not get too wide. */
 .hero {
-    max-width: 600px;
+    max-width: 500px;
+    margin: 24px;
+    margin-right: 48px;
 }
