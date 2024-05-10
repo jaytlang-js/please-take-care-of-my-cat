@@ -34,6 +34,10 @@ body {
     margin: 8px 24px;
 }
 
+.extra-margin-below {
+    margin-bottom: 36px;
+}
+
 .blue-background {
     padding: 8px 24px;
 }
@@ -81,8 +85,10 @@ ul {
 
 /* Banner! First decide an ideal size for the glamour shot */
 .banner img {
-    width: 600px;
-    height: 450px;
+    max-width: 400px;
+    max-height: 300px;
+    width: 100%;
+    height: auto;
 }
 
 /* Banner content should be allowed to wrap
@@ -98,4 +104,9 @@ ul {
 /* The hero text should not get too wide. */
 .hero {
     max-width: 500px;
+}
+
+/* Buttons are blocks, not inline content */
+.button {
+    display: block;
 }
