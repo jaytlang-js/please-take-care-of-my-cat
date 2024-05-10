@@ -37,10 +37,26 @@ ul {
     padding: 0px;
 }
 
+/* Welcome area. It's got two flex boxes to the sides which try and
+ * take up any extra space on wide screens
+ */
+.welcome-container {
+    display: flex;
+    justify-content: center;
+}
+
+.padding {
+    flex: auto;
+}
+
+.welcome {
+    flex: initial;
+}
+
 /* Header area. Flex layout with some reasonable padding */
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 10px;
