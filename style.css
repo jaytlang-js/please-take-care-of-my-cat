@@ -22,6 +22,18 @@ body {
     color: #F9FAF8;
 }
 
+/* Button! */
+.button {
+    display: inline-block;
+    padding: 8px 24px;
+    border-radius: 5px;
+
+    background-color: #3882F6;
+    color: #E5E7EB;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 /* LAYOUT */
 
 /* Control whether things have margin or not. Default no. */
@@ -99,9 +111,4 @@ ul {
 /* The hero text should not get too wide. */
 .hero {
     max-width: 500px;
-}
-
-/* Buttons are blocks, not inline content */
-.button {
-    display: block;
 }
