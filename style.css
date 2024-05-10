@@ -74,6 +74,11 @@ ul {
     justify-content: flex-end;
 }
 
+/* Header logo text shouldn't wrap; so don't let it shrink */
+.header-logo-text {
+    flex: none;
+}
+
 /* Banner! First decide an ideal size for the glamour shot */
 .banner img {
     width: 600px;
