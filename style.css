@@ -24,9 +24,18 @@ body {
 
 /* LAYOUT */
 
-/* Default user agent, don't do me like this */
-body {
+/* Control whether things have margin or not. Default no. */
+* {
     margin: 0px;
+}
+
+/* Forcefully put it back if you need it */
+.with-margin {
+    margin: 8px 24px;
+}
+
+.blue-background {
+    padding: 8px 24px;
 }
 
 /* Lists don't have any left bullet or padding to them, since 
@@ -45,45 +54,30 @@ ul {
     justify-content: center;
 }
 
+/* Any additional space on the outside of the welcome is distributed
+ * evenly to padding <div>s
+ */
 .padding {
     flex: auto;
 }
 
-.welcome {
-    flex: initial;
-}
-
-/* Header area. Flex layout with some reasonable padding */
+/* Header area. Flex layout with space in the middle */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 10px;
 }
 
 .header ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin: 0px;
-}
-
-.header li,
-.header-logo-text {
-    margin: 8px 24px;
-}
-
-/* Force the header to blend into the banner */
-h1 {
-    margin: 0px;
+    justify-content: flex-end;
 }
 
 /* Banner! First decide an ideal size for the glamour shot */
 .banner img {
     width: 600px;
     height: 450px;
-    margin: 24px;
 }
 
 /* Banner content should be allowed to wrap
@@ -99,6 +93,4 @@ h1 {
 /* The hero text should not get too wide. */
 .hero {
     max-width: 500px;
-    margin: 24px;
-    margin-right: 48px;
 }
