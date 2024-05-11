@@ -82,7 +82,7 @@ body {
 }
 
 .extra-padding {
-    padding: 100px 100px;
+    padding: 100px 0px;
 }
 
 /* Centered things should be centered */
@@ -161,7 +161,6 @@ ul {
 }
 
 .how-to li {
-    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
