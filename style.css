@@ -22,11 +22,14 @@ body {
     color: #F9FAF8;
 }
 
+.curved-border {
+    border-radius: 10px;
+}
+
 /* Button! */
 .button {
     display: inline-block;
     padding: 8px 24px;
-    border-radius: 5px;
 
     background-color: #2655a0;
     color: #E5E7EB;
@@ -52,6 +55,12 @@ body {
 
 .blue-background {
     padding: 8px 24px;
+}
+
+/* Centered things should be centered */
+.centered {
+    display: block;
+    text-align: center;
 }
 
 /* Lists don't have any left bullet or padding to them, since 
@@ -111,4 +120,31 @@ ul {
 /* The hero text should not get too wide. */
 .hero {
     max-width: 500px;
+}
+
+/* Now for the how-to! */
+
+.how-to ul {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.how-to li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+.how-to img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-width: 5px;
+    border-color: #3882f6;
+    border-style: solid;
 }
