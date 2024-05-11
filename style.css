@@ -16,6 +16,12 @@ body {
     font-size: 18px;
 }
 
+.bright-blue-background {
+    background-color: #2655a0;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
 .header-logo-text {
     font-size: 24px;
     font-weight: bold;
@@ -42,7 +48,6 @@ body {
     border-radius: 10px;
 }
 
-
 /* Button! */
 .button {
     display: inline-block;
@@ -54,10 +59,17 @@ body {
     font-weight: bold;
 }
 
-/* Images in the how-to area have special borders */
-.how-to img {
+/* Various border types */
+
+.blue-border {
     border-width: 5px;
     border-color: #3882f6;
+    border-style: solid;
+}
+
+.white-border {
+    border-width: 2px;
+    border-color: white;
     border-style: solid;
 }
 
@@ -77,12 +89,13 @@ body {
     margin-bottom: 36px;
 }
 
-.blue-background {
+.background-padding {
     padding: 8px 24px;
 }
 
-.extra-padding {
-    padding: 100px 0px;
+.extra-vertical-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* Centered things should be centered */
@@ -191,4 +204,20 @@ ul {
 
 .testimonial-attribution {
     align-self: flex-end;
+}
+
+/* And FINALLY, the call to action */
+.call-to-action-container {
+    display: flex;
+}
+
+.call-to-action {
+    flex: auto;
+    max-width: 1000px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
 }
