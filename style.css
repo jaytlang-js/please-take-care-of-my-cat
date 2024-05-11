@@ -9,10 +9,9 @@ body {
     font-family: 'Roboto', Verdana, sans-serif;
 }
 
-/* Links do not use text decoration and default white */
+/* Links are white by default */
 a {
-    text-decoration: none;
-    color: #9abffa;
+    color: white;
 }
 
 /* Header and footer are dark, and use a white text color to compensate */
