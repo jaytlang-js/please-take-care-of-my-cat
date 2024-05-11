@@ -9,6 +9,12 @@ body {
     font-family: 'Roboto', Verdana, sans-serif;
 }
 
+/* Links do not use text decoration and default white */
+a {
+    text-decoration: none;
+    color: #9abffa;
+}
+
 /* Header and footer are dark, and use a white text color to compensate */
 .blue-background {
     background-color: #1F2937;
@@ -27,6 +33,7 @@ body {
     font-weight: bold;
     color: #F9FAF8;
 }
+
 
 /* The testimonial uses a light gray background and BIG fonts */
 .gray-background {
@@ -220,4 +227,10 @@ ul {
     align-items: center;
     flex-wrap: wrap;
     gap: 16px;
+}
+
+/* Footer! */
+.footer {
+    display: flex;
+    justify-content: center;
 }
