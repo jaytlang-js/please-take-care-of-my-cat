@@ -22,9 +22,26 @@ body {
     color: #F9FAF8;
 }
 
+/* The testimonial uses a light gray background and BIG fonts */
+.gray-background {
+    background-color: #E5E7EB;
+}
+
+.testimonial-quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.testimonial-attribution {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .curved-border {
     border-radius: 10px;
 }
+
 
 /* Button! */
 .button {
@@ -35,6 +52,13 @@ body {
     color: #E5E7EB;
     text-decoration: none;
     font-weight: bold;
+}
+
+/* Images in the how-to area have special borders */
+.how-to img {
+    border-width: 5px;
+    border-color: #3882f6;
+    border-style: solid;
 }
 
 /* LAYOUT */
@@ -55,6 +79,10 @@ body {
 
 .blue-background {
     padding: 8px 24px;
+}
+
+.extra-padding {
+    padding: 100px 100px;
 }
 
 /* Centered things should be centered */
@@ -144,7 +172,24 @@ ul {
     display: block;
     width: 200px;
     height: 200px;
-    border-width: 5px;
-    border-color: #3882f6;
-    border-style: solid;
+}
+
+/* Testimonial */
+.testimonial {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonial-quote {
+    max-width: 1000px;
+}
+
+.testimonial-attribution {
+    align-self: flex-end;
 }
